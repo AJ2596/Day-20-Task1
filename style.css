@@ -1,21 +1,19 @@
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  /* background-image: url("pexels-anastasia-belousova-4631955.jpg");
+  font-family: Arial, sans-serif;
+  background-image: url("pexels-lorilee-e-1309753.jpg");
   background-size: cover;
-  background-repeat: no-repeat; */
+  background-position: center;
+  background-attachment: fixed; /* Keep the background fixed */
+  min-height: 100vh;
 }
 
 .center-content {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-}
-
-.custom-border {
-  border: 2px solid black;
+  margin-top: 20px; /* Adjust as needed */
 }
 
 .search-container {
@@ -43,6 +41,14 @@ button:hover {
   background-color: #0056b3;
 }
 
+#recipeResults {
+  background-color: rgba(254, 250, 250, 0.8);
+  color: brown;
+  border-radius: 15px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
 .recipe {
   margin-bottom: 20px;
   padding: 10px;
@@ -54,4 +60,7 @@ button:hover {
   max-width: 100%;
   height: auto;
   border-radius: 5px;
+}
+h1 {
+  color: rgb(255, 255, 255);
 }
