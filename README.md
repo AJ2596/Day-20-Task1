@@ -1,9 +1,9 @@
-                                                           Recipe Finder
-Introduction
+                                                           ##Recipe Finder
+##Introduction
 
 This project is a simple web application designed to help users find recipes based on ingredients they have. Users can input ingredients they have on hand, and the application will search for recipes containing those ingredients.
 
-Features
+##Features
 
 1.Search Functionality: Users can input ingredients into the search bar and click the "Search" button to find recipes containing those ingredients.
 
@@ -15,7 +15,7 @@ Features
 
 5.Dynamic Content: The search results are displayed dynamically on the page, allowing users to see the recipes without page reloads.
 
-File Structure
+##File Structure
 
 index.html: Contains the structure of the web page along with HTML elements.
 
@@ -29,7 +29,7 @@ bootstrap.bundle.min.js: External JavaScript file for Bootstrap functionality.
 
 bundle.js: External JavaScript file for additional functionality (possibly related to the Zen Class platform).
 
-Setup and Usage
+##Setup and Usage
 
 1.Clone Repository: Clone the repository to your local machine using git clone <repository-url>.
 
@@ -39,18 +39,9 @@ Setup and Usage
 
 4.View Results: The search results will be displayed below the search bar, showing recipes that match the provided ingredients.
 
-Dependencies
+##Dependencies
 
 Bootstrap 5.0.2: External CSS and JavaScript files are fetched from CDN links for styling and functionality.
-
-Zen Class Bundle: External JavaScript file for additional functionality, possibly related to the Zen Class platform.
-
-Contributing
-
-Contributions to this project are welcome. If you find any bugs, have suggestions for improvements, or want to add new features, feel free to open an issue or submit a pull request.
-
-License
-This project is licensed under the MIT License. Feel free to use, modify, and distribute this code for personal or commercial purposes.
 
 Screenshot
 
